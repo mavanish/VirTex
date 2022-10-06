@@ -5,14 +5,13 @@ Usage
 
 Pre Processing
 --------------
-**Before you use VirTex**, generate quaternion for each atom in the microstructure either by **Polyhedral Template Matching (PTM)** using `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ or `Ovito <https://www.ovito.org/>`_. 
+**Before you use VirTex**, generate quaternion angles for each atom in the microstructure **Polyhedral Template Matching (PTM)** either by using `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ or `Ovito <https://www.ovito.org/>`_. 
 
-| See detials below-
+| See details below-
 
 LAMMPS
 ~~~~~~
-**1- If you are using LAMMPS** to pefrome PTM and calculate quaternion use *ptm/atom* command. Examples are provided below for detial check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
-
+**1- If you are using LAMMPS** to pefrome PTM and calculate quaternion angles, use *ptm/atom* command. Example is provided below; however, for detial description please check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
 
 .. code-block:: console
 
@@ -33,13 +32,13 @@ For example:
 
 Ovito
 ~~~~~~
-**2- If you are using Ovito** to pefrome PTM and calculate quaternion use *Polyhedral Template Matching* modifier in Ovito application or best way would be running python script to generate quaternions for all snapshots. 
+**2- If you are using Ovito** to pefrome PTM and calculate quaternion angles, use *Polyhedral Template Matching* modifier in Ovito. For **GUI** version of Ovito use *Polyhedral Template Matching* modifier and export the file in the *lammps dump* format. We recommend using Ovito python script to generate quaternions for single or all snapshots. *You might need pro version of Ovito for this. If that is a challange please use LAMMPS*
 
-Short example is provided below for detial check `Ovito PTM modifier <https://www.ovito.org/docs/current/python/modules/ovito_modifiers.html#ovito.modifiers.PolyhedralTemplateMatchingModifier>`_.
+We provide here a short example to calculate quaternion angles using Ovito python scripting, for detial understanding check `Ovito PTM modifier <https://www.ovito.org/docs/current/python/modules/ovito_modifiers.html#ovito.modifiers.PolyhedralTemplateMatchingModifier>`_.
 
 For example:
 
-.. code-block:: console
+.. code-block:: python
 
    from ovito.io import import_file, export_file
    from ovito.modifiers import PolyhedralTemplateMatchingModifier
@@ -54,7 +53,7 @@ For example:
 					'Structure Type','Orientation.X','Orientation.Y','Orientation.Z','Orientation.W'])
 ..
 
-The exmaple directory contains a python script to carry-out PTM for all snapshot using *for loop*. The directory also contain an example bash file to submit the job if you are using HPC. Check here
+The exmaple directory contains a python script to carry-out PTM for all snapshot using *for loop*. The directory also contain an example *bash* submission file to submit the job if you are using HPC. Check here
    
 Installation
 ------------
