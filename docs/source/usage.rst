@@ -51,7 +51,7 @@ will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
-For example:
+For examples:
 
 >>> import lumache
 >>> lumache.get_random_ingredients()
