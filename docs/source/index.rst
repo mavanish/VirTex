@@ -22,3 +22,4 @@ Contents
    Tutorials
    Teams
    api
+   citing
