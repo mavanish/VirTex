@@ -15,18 +15,19 @@ See detials below-
 .. code-block:: console
 
    $ compute ID group-ID ptm/atom structures threshold group2-ID
+..
 
-<br> ID, group-ID are documented in compute command <br/>  
-<br> ptm/atom = style name of this compute command <br/>  
-<br> structures = default or all or any hyphen-separated combination of fcc, hcp, bcc, ico, sc, dcub, dhex, or graphene = structure types to search for <br/> 
-<br> threshold = lattice distortion threshold (RMSD) <br/>  
-<br> group2-ID determines which group is used for neighbor selection (optional, default “all”)  
+* ID, group-ID are documented in compute command
+* ptm/atom = style name of this compute command 
+* structures = default or all or any hyphen-separated combination of fcc, hcp, bcc, ico, sc, dcub, dhex, or graphene = structure types to search for
+* threshold = lattice distortion threshold (RMSD)  
+* group2-ID determines which group is used for neighbor selection (optional, default “all”)  
 
 For example:
 
-   compute 1 all ptm/atom default 0.1 all  
-   compute 1 all ptm/atom fcc-hcp-dcub-dhex 0.15 all  
-   compute 1 all ptm/atom all 0  
+   compute 1 all ptm/atom default 0.1 all\
+   compute 1 all ptm/atom fcc-hcp-dcub-dhex 0.15 all\
+   compute 1 all ptm/atom all 0\ 
 
 
 Installation
