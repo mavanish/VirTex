@@ -17,7 +17,6 @@ Contents
 --------
 
 .. toctree::
-   :hidden:
    about
    usage
    Tutorials
