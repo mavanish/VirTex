@@ -8,7 +8,6 @@ Pre Processing
 **Before you use VirTex**, generate quaternion for each atom in the microstructure either by **Polyhedral Template Matching (PTM)** using `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ or `Ovito <https://www.ovito.org/>`_. 
 
 | See detials below-
-| ---------------------------------------------------------
 
 LAMMPS
 ~~~~~~
@@ -31,7 +30,6 @@ For example:
    | compute 1 all ptm/atom default 0.1 all
    | compute 1 all ptm/atom fcc-hcp-dcub-dhex 0.15 all
    | compute 1 all ptm/atom all 0
-| ---------------------------------------------------------
 
 Ovito
 ~~~~~~
