@@ -16,11 +16,11 @@ See detials below-
 
    $ compute ID group-ID ptm/atom structures threshold group2-ID
 
-ID, group-ID are documented in compute command <br/>  
-ptm/atom = style name of this compute command <br/>  
-structures = default or all or any hyphen-separated combination of fcc, hcp, bcc, ico, sc, dcub, dhex, or graphene = structure types to search for <br/> 
-threshold = lattice distortion threshold (RMSD) <br/>  
-group2-ID determines which group is used for neighbor selection (optional, default “all”)  
+<br> ID, group-ID are documented in compute command <br/>  
+<br> ptm/atom = style name of this compute command <br/>  
+<br> structures = default or all or any hyphen-separated combination of fcc, hcp, bcc, ico, sc, dcub, dhex, or graphene = structure types to search for <br/> 
+<br> threshold = lattice distortion threshold (RMSD) <br/>  
+<br> group2-ID determines which group is used for neighbor selection (optional, default “all”)  
 
 For example:
 
