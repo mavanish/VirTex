@@ -11,7 +11,7 @@ Pre Processing
 | ---------------------------------------------------------
 
 LAMMPS
-======
+~~~~~~
 **1- If you are using LAMMPS** to pefrome PTM and calculate quaternion use *ptm/atom* command. Examples are provided below for detial check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
 
 
@@ -32,6 +32,9 @@ For example:
    | compute 1 all ptm/atom fcc-hcp-dcub-dhex 0.15 all
    | compute 1 all ptm/atom all 0
 | ---------------------------------------------------------
+
+Ovito
+~~~~~~
 **2- If you are using Ovito** to pefrome PTM and calculate quaternion use *Polyhedral Template Matching* modifier in Ovito application or best way would be running python script to generate quaternions for all snapshots. 
 
 Short example is provided below for detial check `Ovito PTM modifier <https://www.ovito.org/docs/current/python/modules/ovito_modifiers.html#ovito.modifiers.PolyhedralTemplateMatchingModifier>`_.
