@@ -1,8 +1,8 @@
-Welcome to Lumache's documentation!
+Welcome to VirTeX's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**VirTex** (/lu'make/) is a Python library for doing virtual texture analysis for atomistic dataset
+Such as, calculatiing rotation matirx, Euler angles, orientation, misoirnetation, Schmid Factor, etc.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
