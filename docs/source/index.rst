@@ -17,6 +17,8 @@ Contents
 --------
 
 .. toctree::
-
+   about
    usage
+   Tutorials
+   Teams
    api
