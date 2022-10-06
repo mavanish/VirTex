@@ -5,7 +5,7 @@ Usage
 
 Pre Processing
 --------------
-**Before you use VirTex**, generate quaternion angles for each atom in the microstructure **Polyhedral Template Matching (PTM)** either by using `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ or `Ovito <https://www.ovito.org/>`_. 
+**Before you use VirTex**, generate quaternion angles for each atom in the microstructure via **Polyhedral Template Matching (PTM)** either by using `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ or `Ovito <https://www.ovito.org/>`_. 
 
 | See details below-
 
@@ -54,7 +54,19 @@ For example:
 ..
 
 The exmaple directory contains a python script to carry-out PTM for all snapshot using *for loop*. The directory also contain an example *bash* submission file to submit the job if you are using HPC. Check here
-   
+
+Caution
+~~~~~~~
+
+1. VirTex is written in python, it is heavily inspired by I/O of pyMAINS to read and write dump/data files, which uses `pandas <https://pandas.pydata.org/>`_ library to avoid use of *for loops* while performing analysis on big atomistic microstructures. Thus, we recommend users should have/get basic understanding of pandas. It is very intivutive; however, if needed please check pandas `cheat sheet <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_.
+
+2. For the current of version of VirTex your atomistic dump file should have quaternion angles named as follows-
+.. code-block:: python
+	'orientationx', 'orientationy', 'orientationz', 'orientationw'
+
+Otherwise it would not utilize appropiate columns to calculate texture properties. One option to avoid such constrain is to rename columns after reading dump files in python. *We promise to fix this in upcoming version.*
+
+
 Installation
 ------------
 
