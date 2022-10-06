@@ -13,7 +13,7 @@ See detials below-
 
 
 .. code-block:: console
-compute ID group-ID ptm/atom structures threshold group2-ID
+   compute ID group-ID ptm/atom structures threshold group2-ID
 
 ID, group-ID are documented in compute command
 ptm/atom = style name of this compute command
