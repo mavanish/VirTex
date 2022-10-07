@@ -55,7 +55,7 @@ For example:
 
 The exmaple directory contains a python script to carry-out PTM for all snapshot using *for loop*. The directory also contain an example *bash* submission file to submit the job if you are using HPC. Check here
 
-Caution
+Cautions
 ~~~~~~~
 
 1. VirTex is written in python, it is heavily inspired by I/O of `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ to read and write dump/data files, which uses `pandas <https://pandas.pydata.org/>`_ library to avoid use of *for loops* while performing analysis on big atomistic microstructures. Thus, we recommend users should have/get basic understanding of pandas. It is very intivutive; however, if needed please check pandas `cheat sheet <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_.
@@ -76,25 +76,26 @@ To use VirTex, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install virtex
+   pip install virtex
 
-Creating recipes
-----------------
+..
+	Creating recipes
+	----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+	To retrieve a list of random ingredients,
+	you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+	.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+	The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
+	or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+	will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+	.. autoexception:: lumache.InvalidKindError
 
-For examples:
+	For examples:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+	>>> import lumache
+	>>> lumache.get_random_ingredients()
+	['shells', 'gorgonzola', 'parsley']
 
