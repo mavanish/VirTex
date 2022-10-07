@@ -18,7 +18,7 @@ If VirTex helps in your research please cite the following paper.
   }
 
 **************
-external paper
+Other articles
 **************
 
 Please also cite the package you used to genrate quaternion angles (LAMMPS or Ovito). If you used any other external package please cite accordingly. 
@@ -62,22 +62,23 @@ Ovito
 The `Ovito visulatization package <https://www.ovito.org/>`_.
  
 .. code-block:: bibtex
-  @article{ ovito,
-  Author = {Stukowski, Alexander},
-  Title = {{Visualization and analysis of atomistic simulation data with OVITO-the
-   Open Visualization Tool}},
-  Journal = {{MODELLING AND SIMULATION IN MATERIALS SCIENCE AND ENGINEERING}},
-  Year = {{2010}},
-  Volume = {{18}},
-  Number = {{1}},
-  Month = {{JAN}},
-  DOI = {{10.1088/0965-0393/18/1/015012}},
-  Article-Number = {{015012}},
-  ISSN = {{0965-0393}},
-  EISSN = {{1361-651X}},
-  ResearcherID-Numbers = {{Stukowski, Alexander/G-9695-2017}},
-  ORCID-Numbers = {{Stukowski, Alexander/0000-0001-6750-3401}},
-  Unique-ID = {{ISI:000272791800012}},
+
+    @article{ ovito,
+    Author = {Stukowski, Alexander},
+    Title = {{Visualization and analysis of atomistic simulation data with OVITO-the
+     Open Visualization Tool}},
+    Journal = {{MODELLING AND SIMULATION IN MATERIALS SCIENCE AND ENGINEERING}},
+    Year = {{2010}},
+    Volume = {{18}},
+    Number = {{1}},
+    Month = {{JAN}},
+    DOI = {{10.1088/0965-0393/18/1/015012}},
+    Article-Number = {{015012}},
+    ISSN = {{0965-0393}},
+    EISSN = {{1361-651X}},
+    ResearcherID-Numbers = {{Stukowski, Alexander/G-9695-2017}},
+    ORCID-Numbers = {{Stukowski, Alexander/0000-0001-6750-3401}},
+    Unique-ID = {{ISI:000272791800012}},
   }
 .. toctree::
    :maxdepth:2
