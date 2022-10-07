@@ -8,5 +8,5 @@ Release history
 ***************
 
 Release 0.0.1 (2022)
-====================
+~~~~~~~~~~~~~~~~~~~~
 * initial version of VirTex in the form of python scripts
