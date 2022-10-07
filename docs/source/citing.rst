@@ -59,7 +59,7 @@ The `LAMMPS molecular dynamics simulation package <http://lammps.sandia.gov>`_.
   
 Ovito
 ======
-The `Ovito visulatization package <https://www.ovito.org/>`_.
+The `Ovito visualization package <https://www.ovito.org/>`_.
  
 .. code-block:: bibtex
 
