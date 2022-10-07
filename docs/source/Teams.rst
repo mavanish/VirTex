@@ -1,7 +1,8 @@
 Teams
 =====
 
-Tutorials for using VirTex efficiently
+Follwoing are VirTex inital developers and lead authors of the respective article.
+
 
 .. image:: _static/modify-853x1024-1.jpg
     :width: 230px
