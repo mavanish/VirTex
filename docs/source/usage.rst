@@ -11,7 +11,7 @@ Pre Processing
 
 LAMMPS
 ~~~~~~
-**1- If you are using LAMMPS** to pefrome PTM and calculate quaternion angles, use *ptm/atom* command. Example is provided below; however, for detial description please check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
+**1- If you are using LAMMPS** to pefrome PTM and calculate quaternion angles, use *ptm/atom* command. Example is provided below; however, for detail description please check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
 
 .. code-block:: console
 
