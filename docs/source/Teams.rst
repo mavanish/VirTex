@@ -1,12 +1,25 @@
 Teams
 =====
 
-Follwoing are VirTex inital developers and lead authors of the respective article.
+Follwoing are inital developers of VirTex and lead authors of the respective article.
 
-
-.. image:: ../_static/modify-853x1024-1.jpg
-    :width: 195px
-    :height: 231px
+.. image:: ../_static/avanish.jpg
+    :width: 185px
+    :height: 195px
     :align: center
     :alt: Avanish Mishra, lead developer.
 Avanish Mishra, lead developer
+
+.. image:: ../_static/marco2.jpg
+    :width: 185px
+    :height: 195px
+    :align: center
+    :alt: Marco J. Echeverria, core developer.
+Marco J. Echeverria, core developer
+
+.. image:: ../_static/avi.jpg
+    :width: 185px
+    :height: 195px
+    :align: center
+    :alt: Avinash M. Dongare, Project Lead.
+Avinash M. Dongare, Project Lead
