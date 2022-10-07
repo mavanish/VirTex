@@ -4,7 +4,7 @@ Teams
 Follwoing are inital developers of VirTex and lead authors of the respective article.
 
 .. list-table:: 
-   :widths: 10 10 10
+   :widths: 2 2 2
    :header-rows: 1
 
 
@@ -25,17 +25,17 @@ Follwoing are inital developers of VirTex and lead authors of the respective art
         :align: center
         :alt: Avinash M. Dongare, Project Lead.
      
-   * - Avanish Mishra, 
-        lead developer 
-     - Marco J. Echeverria, 
-        core developer
-     - Avinash M. Dongare, 
-        Project Lead
+   * - | Avanish Mishra, 
+       | lead developer 
+     - | Marco J. Echeverria, 
+       | core developer
+     - | Avinash M. Dongare, 
+       | Project Lead
      
-   * - Director Fellow, 
-         Los Alamos National Laboratory, USA
-     - Graduate Researcher, 
-         University of Connecticut, USA
-     - Associate Professor, 
-         University of Connecticut, USA
+   * - | Director Fellow, 
+       | Los Alamos National Laboratory, USA
+     - | Graduate Researcher, 
+       | University of Connecticut, USA
+     - | Associate Professor, 
+       | University of Connecticut, USA
     
