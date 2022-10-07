@@ -26,9 +26,9 @@ Follwoing are inital developers of VirTex and lead authors of the respective art
         :alt: Avinash M. Dongare, Project Lead.
      
    * - | Avanish Mishra, 
-       | lead developer 
+       | Lead developer 
      - | Marco J. Echeverria, 
-       | core developer
+       | Core developer
      - | Avinash M. Dongare, 
        | Project Lead
      
