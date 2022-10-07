@@ -61,7 +61,9 @@ Caution
 1. VirTex is written in python, it is heavily inspired by I/O of `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ to read and write dump/data files, which uses `pandas <https://pandas.pydata.org/>`_ library to avoid use of *for loops* while performing analysis on big atomistic microstructures. Thus, we recommend users should have/get basic understanding of pandas. It is very intivutive; however, if needed please check pandas `cheat sheet <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_.
 
 2. For the current of version of VirTex your atomistic dump file should have quaternion angles named as follows-
+
 .. code-block:: python
+
 	'orientationx', 'orientationy', 'orientationz', 'orientationw'
 
 Otherwise it would not utilize appropiate columns to calculate texture properties. One option to avoid such constrain is to rename columns after reading dump files in python. *We promise to fix this in upcoming version.*
