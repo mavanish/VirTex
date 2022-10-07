@@ -4,7 +4,7 @@ Teams
 Follwoing are inital developers of VirTex and lead authors of the respective article.
 
 .. list-table:: 
-   :widths: 25 25 25
+   :widths: 10 10 10
    :header-rows: 1
 
 
