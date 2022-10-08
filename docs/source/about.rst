@@ -1,6 +1,10 @@
 About
 =====
 
+***************
+Introduction
+***************
+
 VirTex - a set of python scripts to performe texture analysis for atomistic data (MD). It generates sevral texture related properties such as, Euler angles, rotation matrix, angle-axis pairs, orientation, misorientation angles, and Schmid Factor that can compliment experimental observations. 
 
 VirTex utilizes following packages-
