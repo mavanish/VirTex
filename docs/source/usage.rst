@@ -11,7 +11,7 @@ Pre Processing
 
 LAMMPS
 ~~~~~~
-**1- If you are using LAMMPS** to pefrome PTM and calculate quaternion angles, use *ptm/atom* command. Example is provided below; however, for detail description please check `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
+**1- If you are using LAMMPS** to perform PTM and calculate quaternion angles, use the *ptm/atom* command. An example is provided below; however, for a detailed description, please check the `LAMMPS command page for PTM <https://docs.lammps.org/compute_ptm_atom.html>`_.
 
 .. code-block:: console
 
@@ -32,9 +32,9 @@ For example:
 
 Ovito
 ~~~~~~
-**2- If you are using Ovito** to pefrome PTM and calculate quaternion angles, use *Polyhedral Template Matching* modifier in Ovito. For **GUI** version of Ovito use *Polyhedral Template Matching* modifier and export the file in the *lammps dump* format. We recommend using Ovito python script to generate quaternions for single or all snapshots. *You might need pro version of Ovito for this. If that is a challange please use LAMMPS*
+**2- If you are using Ovito** to perform PTM and calculate quaternion angles, use the *Polyhedral Template Matching* modifier in Ovito. For the **GUI** version of Ovito, use the *Polyhedral Template Matching* modifier and export the file in the *lammps dump* format. We recommend using Ovito python script to generate quaternions for single or all snapshots. *You might need the pro version of Ovito for this. If that is a challenge, please use LAMMPS*
 
-We provide here a short example to calculate quaternion angles using Ovito python scripting, for detial understanding check `Ovito PTM modifier <https://www.ovito.org/docs/current/python/modules/ovito_modifiers.html#ovito.modifiers.PolyhedralTemplateMatchingModifier>`_.
+We provide a short example to calculate quaternion angles using Ovito python scripting, for detail understanding check `Ovito PTM modifier <https://www.ovito.org/docs/current/python/modules/ovito_modifiers.html#ovito.modifiers.PolyhedralTemplateMatchingModifier>`_.
 
 For example:
 
@@ -53,20 +53,20 @@ For example:
 					'Structure Type','Orientation.X','Orientation.Y','Orientation.Z','Orientation.W'])
 ..
 
-The exmaple directory contains a python script to carry-out PTM for all snapshot using *for loop*. The directory also contain an example *bash* submission file to submit the job if you are using HPC. Check here
+The example directory contains a python script to carry out PTM for all snapshots using *for loop*. The directory also includes an example *bash* submission file to submit the job if you use HPC. Check here
 
 Cautions
 ~~~~~~~
 
-1. VirTex is written in python, it is heavily inspired by I/O of `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ to read and write dump/data files, which uses `pandas <https://pandas.pydata.org/>`_ library to avoid use of *for loops* while performing analysis on big atomistic microstructures. Thus, we recommend users should have/get basic understanding of pandas. It is very intivutive; however, if needed please check pandas `cheat sheet <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_.
+1. VirTex is written in python, heavily inspired by the I/O of `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ to read and write dump/data files, which uses `pandas <https://pandas.pydata.org/>`_ library to avoid the use of *for loops* while performing analysis on big atomistic microstructures. Thus, we recommend users should have/get a basic understanding of pandas. It is very intuitive; however, if needed, please check pandas `cheat sheet <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>`_.
 
-2. For the current of version of VirTex your atomistic dump file should have quaternion angles named as follows-
+2. For the current version of VirTex, your atomistic dump file should have quaternion angles named as follows-
 
 .. code-block:: python
 
 	'orientationx', 'orientationy', 'orientationz', 'orientationw'
 
-Otherwise it would not utilize appropiate columns to calculate texture properties. One option to avoid such constrain is to rename columns after reading dump files in python. *We promise to fix this in upcoming version.*
+Otherwise, it would not utilize appropriate columns to calculate texture properties. One option to avoid such constrain is to rename columns after reading dump files in python. *We promise to fix this in an upcoming version.*
 
 
 Installation
