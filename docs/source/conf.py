@@ -31,7 +31,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_logo = "../_static/virtex_logo.png"
+html_logo = "../_static/Virtex_log_new.png"
 html_static_path = ['_static']
 
 # -- Options for EPUB output
