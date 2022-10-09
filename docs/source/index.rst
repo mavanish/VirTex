@@ -34,6 +34,14 @@ If VirTex helps in your research please cite the following paper.
    Contents
    --------
 
+..
+      about
+      usage
+      Tutorials
+      Teams
+      api
+      citing
+   
 .. toctree::
    :hidden:
    
