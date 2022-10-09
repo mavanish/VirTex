@@ -13,7 +13,7 @@ VirTex is developed at `Department of Materials Science and Engineering <https:/
 
 .. note::
 
-   This project is under active development. We are actively adding various other capabilities to calculate various other texture related properties for atomistic microstructure. The code is published on `Github <https://github.com/mrcavam/VirTex>`_.
+   This project is under active development. We are actively adding other capabilities to calculate various other texture related properties for atomistic microstructure. The code is published on `Github <https://github.com/mrcavam/VirTex>`_.
 
 Citing
 ======
