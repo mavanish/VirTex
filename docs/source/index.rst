@@ -49,5 +49,4 @@ If VirTex helps in your research please cite the following paper.
    usage
    Tutorials
    Teams
-   api
    citing
