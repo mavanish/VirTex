@@ -9,11 +9,11 @@ It reads dump files from `LAMMPS <https://www.lammps.org/#gsc.tab=0>`_ with pre-
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-VirTex is developed at `Department of Materials Science and Engineering <https://mse.engr.uconn.edu/>`_, and `Institute of Materials Science <https://www.ims.uconn.edu/>`_, `University of Connecticut <https://uconn.edu/>`_, CT, USA in the group of Prof. Avinash M Dongare (`Computational Materials and Mechanics Group <https://dongare.group.uconn.edu/>`_). The article associated with VirTex proposes its application for finding orientation, misorientation, angel-axis pairs, but for the release of the package it is extended to calculate Schmid Factor and automatic identification of peaks in angle-axis pair distribution. VirTex is released in 2022 as open-source package. We welocme collobrator for future development of the package, we would also focusing on the development of VirTex sister packages. Sister packages of VirTex are `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ (*python-pandas package to analyze MD data*) and VirDi (**Virtual diffraction package** *under development*). 
+VirTex is developed at `Department of Materials Science and Engineering <https://mse.engr.uconn.edu/>`_, and `Institute of Materials Science <https://www.ims.uconn.edu/>`_, `University of Connecticut <https://uconn.edu/>`_, CT, USA in the group of Prof. Avinash M Dongare (`Computational Materials and Mechanics Group <https://dongare.group.uconn.edu/>`_). The article associated with VirTex proposes its application for finding orientation, misorientation, angel-axis pairs, but for the release of the package it is extended to calculate Schmid Factor and automatic identification of peaks in angle-axis pair distribution. VirTex is released in 2022 as open-source package. We welocme collobrator for future development of the package, we would also focusing on the development of VirTex sister packages. Sister packages of VirTex are `pyMAINS <https://github.com/mrcavam/pyMAINS>`_ (*python-pandas package to analyze MD data*) and VirDi (**Virtual diffraction package** is *under development*). 
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. We are actively adding various other capabilities to calculate various other texture related properties for atomistic microstructure. The code is published on `Github <https://github.com/mrcavam/VirTex>`_.
 
 Citing
 ======
