@@ -72,15 +72,27 @@ Otherwise, it would not utilize appropriate columns to calculate texture propert
 Installation
 ------------
 
-Due to initial development phase and very frequent update of VirTex package, for now we highly recommend user to contact us directly at xxx@gmail.com or Prof. Dongare at dongare@uconn.edu to get VirTex. We request even you revisiting the webpage for downloading latest version of the VirTex, please do contact us, as we would rectifying bugs very frequently. On request whole package would be made available as python scripts with set of instructutions and current limitaions. **Please always respect the limitation of current version of VirTex**, we are alwasy happy to here you input for improvment and expansion of VirTex for different applications.
+Due to initial development phase and very frequent update of VirTex package, for now we highly recommend user to contact us directly at xxx@gmail.com or Prof. Dongare at dongare@uconn.edu to get VirTex. We request even you revisiting the webpage for downloading latest version of the VirTex, please do contact us, as we would rectifying bugs very frequently. On request whole package would be made available as python scripts with set of instructutions and current limitaions. **Please always respect the limitation of current version of VirTex**, we are alwasy happy to here you input for improvment and expansion of VirTex for different applications. Before you install the package, make sure you have all the dependices installed, which includes-
 
-Once you have the package install using following command-
+* numpy, pandas, scipy, matplotlib, scikit-learn (optional), install these packages using pip or conda (or any other suitable methods works for you)
+
+.. code-block:: python
+
+   pip install numpy
+   pip install scipy
+   pip install pandas
+   pip install matplotlib
+   pip install scikit-learn 
+
+Once you have the package and dependcies finalized, install VirTex using following command-
 
 .. code-block:: console
 
    pip install virtex.py
 
 or keep the scripts in the directory you are using the package or define the path in your bashrc! **Please check tutorials for instrucution to use VirTex. We also menitone notes to get better figures and tricks for faster chraterization.**
+
+
 
 ..
 	Creating recipes
