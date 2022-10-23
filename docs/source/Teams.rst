@@ -32,7 +32,7 @@ Follwoing are inital developers of VirTex and lead authors of the respective art
      - | Prof. Avinash M. Dongare, 
        | Project Lead
      
-   * - | Director Fellow, 
+   * - | Director's Postdoctoral Fellow, 
        | Los Alamos National Laboratory, USA
      - | Graduate Researcher, 
        | University of Connecticut, USA
