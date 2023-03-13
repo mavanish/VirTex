@@ -1,7 +1,7 @@
 Teams
 =====
 
-Follwoing are inital developers of VirTex and lead authors of the respective article.
+Following are the initial developers of VirTex and lead authors of the respective article.
 
 .. list-table:: 
    :widths: 2 2 2
