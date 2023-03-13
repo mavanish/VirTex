@@ -4,7 +4,7 @@
 Citing
 ======
 
-If VirTex helps in your research please cite the following paper.
+If VirTex helps in your research, please cite the following paper.
 
 .. code-block:: bibtex
 
@@ -21,7 +21,7 @@ If VirTex helps in your research please cite the following paper.
 Other articles
 **************
 
-Please also cite the package you used to genrate quaternion angles (LAMMPS or Ovito). If you used any other external package please cite accordingly. 
+Please also cite the package you used to generate quaternion angles (LAMMPS or Ovito). If you used any other external package, please cite accordingly. 
 
 LAMMPS
 ======
