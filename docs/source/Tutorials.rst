@@ -16,10 +16,21 @@ Following is short tuortial for using VirTex efficiently.
     skiprows=9
     df=readio(names, skiprows,'lammps_dump')
 
+.. note:: 
 
+    Convert quartonin angle to rotation matrix using `quaternions_to_rotation`. Also, make sure you have following columns in dump file 'orientationx', 'orientationy', 'orientationz','orientationw'
+
+.. code-block:: python
+    from virtex.rotation import quaternions_to_rotation
+    df_rot=quaternions_to_rotation(df, type='clock')  # type='clock' or 'left' clockwise rotation and type='anticlock' or 'right' anti-clockwise rotation
+    
 .. code-block:: python
 
     # make sure you have following columns in dump file 'orientationx', 'orientationy', 'orientationz','orientationw'
     from virtex.rotation import quaternions_to_rotation
-    df_rot=quaternions_to_rotation(df, type='clock')  # type='clock' or 'left' clockwise and type='anticlock' or 'right' anti-clockwise
+    df_rot=quaternions_to_rotation(df, type='clock')  # type='clock' or 'left' clockwise rotation and type='anticlock' or 'right' anti-clockwise rotation
+    
+    
+
+    
 
