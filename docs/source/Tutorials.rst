@@ -61,7 +61,11 @@ Misorientation
     
 .. code-block:: text
 
-     Go=[[0,0.70,0.70],[0.55,0.55,0.55],[1,0,0]]  
+     Go=[[0,0.70,0.70],[0.57,0.57,0.57],[1.00,0,0]]  
 
+.. code-block:: python
 
+    from virtex.rotation import misorientation
+    df_mis=misorientation(df,Go) 
+    
     
