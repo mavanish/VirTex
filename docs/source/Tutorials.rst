@@ -19,18 +19,22 @@ Following is short tuortial for using VirTex efficiently.
 .. note:: 
 
     Convert quartonin angle to rotation matrix using `quaternions_to_rotation`. Also, make sure you have following columns in dump file 'orientationx', 'orientationy', 'orientationz','orientationw'
+    
     type='clock' or 'left' clockwise rotation and type='anticlock' or 'right' anti-clockwise rotation
 
 .. code-block:: python
+
     from virtex.rotation import quaternions_to_rotation
     df_rot=quaternions_to_rotation(df, type='clock')  
  
 .. note:: 
 
     Convert quartonin angle to Euler angles using `quaternions_to_euler`. Also, make sure you have following columns in dump file 'orientationx', 'orientationy', 'orientationz','orientationw'
+    
     type='clock' or 'left' clockwise rotation and type='anticlock' or 'right' anti-clockwise rotation
     
 .. code-block:: python
+
     from virtex.rotation import quaternions_to_euler
     df_rot_eul=quaternions_to_euler(df, type='clock')  
 
