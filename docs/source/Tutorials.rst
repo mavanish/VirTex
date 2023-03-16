@@ -38,10 +38,16 @@ Following is short tuortial for using VirTex efficiently.
     from virtex.rotation import quaternions_to_euler
     df_rot_eul=quaternions_to_euler(df, type='clock')  
 
+.. note:: 
 
+    *** The virtex.rotation includes following functionalities
     
-    
-    
+.. code-block:: python
+
+    from virtex.rotation import rotation_to_invcosine # to calculate inverse cosine of rotation matrix (Matrix in terms of degree angles)
+    from virtex.rotation import angleaxispair # to calculate angle axis pair (rotation angle and component of rotation vectors)
+    from virtex.rotation import pair_to_rodrigues # to calculate Rodrigues or Rodrigues-Frank vector components
+    from virtex.rotation import euler_to_rotation # to calculate rotation matrix from Euler angles
 
     
 
