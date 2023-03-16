@@ -7,8 +7,10 @@ Due to the initial development phase and frequent updates of the VirTex package,
 
 Following is short tuortial for using VirTex efficiently.
 
- *** After sucessfull installation of VirTex, first task would be to read the file. Based on the input type of you file, we recommend #normal *lammps dump* format, you would have to choose few inputs for reading the dump files with quartonions.*** 
+ ** After sucessfull installation of VirTex, first task would be to read the file. Based on the input type of you file, we recommend #normal *lammps dump* format, you would have to choose few inputs for reading the dump files with quartonions.**
 
+Orientation
+~~~~~~~~~~~~~~
 .. code-block:: python
 
     from virtex.io import readio
@@ -40,7 +42,7 @@ Following is short tuortial for using VirTex efficiently.
 
 .. note:: 
 
-    *** The virtex.rotation includes following functionalities
+    ** The virtex.rotation includes following functionalities **
     
 .. code-block:: python
 
@@ -49,5 +51,17 @@ Following is short tuortial for using VirTex efficiently.
     from virtex.rotation import pair_to_rodrigues # to calculate Rodrigues or Rodrigues-Frank vector components
     from virtex.rotation import euler_to_rotation # to calculate rotation matrix from Euler angles
 
-    
+Misorientation
+~~~~~~~~~~~~~~
 
+
+.. note:: 
+    For generation misorientation properties we need to first define a refrence rotation matrix
+    For exmaple
+    
+.. code-block:: text
+
+     Go=[[0,0.70,0.70],[0.55,0.55,0.55],[1,0,0]]  
+
+
+    
