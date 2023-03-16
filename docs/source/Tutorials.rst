@@ -17,6 +17,7 @@ code-block:: python
     df=readio(names, skiprows,'lammps_dump')
 
 code-block:: python
+
     # make sure you have following columns in dump file 'orientationx', 'orientationy', 'orientationz','orientationw'
     from virtex.rotation import quaternions_to_rotation
     df_rot=quaternions_to_rotation(df, type='clock')  # type='clock' or 'left' clockwise and type='anticlock' or 'right' anti-clockwise
